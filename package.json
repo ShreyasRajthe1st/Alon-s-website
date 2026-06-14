@@ -1,0 +1,14 @@
+{
+  "name": "linoxa-webflow-local",
+  "version": "1.0.0",
+  "description": "Linoxa Webflow HTML template running locally",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  }
+}
