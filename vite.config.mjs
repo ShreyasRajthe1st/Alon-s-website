@@ -18,12 +18,11 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
+      // Single-page SimpliiGood site. The old Linoxa real-estate sub-pages
+      // (about/service/technology/pricing) are intentionally NOT built so the
+      // template residue never deploys. Re-add inputs here if those pages are rebuilt.
       input: {
         main: resolve(__dirname, 'index.html'),
-        about: resolve(__dirname, 'about.html'),
-        pricing: resolve(__dirname, 'pricing.html'),
-        service: resolve(__dirname, 'service.html'),
-        technology: resolve(__dirname, 'technology.html'),
       },
     },
   },

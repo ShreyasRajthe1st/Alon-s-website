@@ -11,3 +11,6 @@ npm-debug.log*
 # Editor/OS
 .vscode/
 *.swp
+
+# local reference only
+_index.linoxa.bak.html
